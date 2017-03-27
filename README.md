@@ -1,0 +1,2 @@
+# ZZSegmentedControl
+模仿网易新闻的一个SegmentedControl
