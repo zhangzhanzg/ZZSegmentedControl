@@ -13,6 +13,7 @@
 		0B4782191E88F47F00593106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B4782171E88F47F00593106 /* Main.storyboard */; };
 		0B47821B1E88F47F00593106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B47821A1E88F47F00593106 /* Assets.xcassets */; };
 		0B47821E1E88F47F00593106 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B47821C1E88F47F00593106 /* LaunchScreen.storyboard */; };
+		0B4782271E88F4E900593106 /* ZZSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4782261E88F4E900593106 /* ZZSegmentedControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0B47821A1E88F47F00593106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B47821D1E88F47F00593106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B47821F1E88F47F00593106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B4782251E88F4E900593106 /* ZZSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZSegmentedControl.h; sourceTree = "<group>"; };
+		0B4782261E88F4E900593106 /* ZZSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZSegmentedControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				0B4782121E88F47F00593106 /* AppDelegate.m */,
 				0B4782141E88F47F00593106 /* ViewController.h */,
 				0B4782151E88F47F00593106 /* ViewController.m */,
+				0B4782251E88F4E900593106 /* ZZSegmentedControl.h */,
+				0B4782261E88F4E900593106 /* ZZSegmentedControl.m */,
 				0B4782171E88F47F00593106 /* Main.storyboard */,
 				0B47821A1E88F47F00593106 /* Assets.xcassets */,
 				0B47821C1E88F47F00593106 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B4782271E88F4E900593106 /* ZZSegmentedControl.m in Sources */,
 				0B4782161E88F47F00593106 /* ViewController.m in Sources */,
 				0B4782131E88F47F00593106 /* AppDelegate.m in Sources */,
 				0B4782101E88F47F00593106 /* main.m in Sources */,
@@ -273,6 +279,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = R4DXTZJZ3T;
 				INFOPLIST_FILE = ZZSegmentedControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Angelcrunch.ZZSegmentedControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +292,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = R4DXTZJZ3T;
 				INFOPLIST_FILE = ZZSegmentedControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Angelcrunch.ZZSegmentedControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
